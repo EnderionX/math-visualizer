@@ -1,15 +1,13 @@
 # 📈 Function Plotter (Python)
 
-I built this project as a simple tool to visualize algebraic functions quickly. It takes an expression in terms of `x`, lets you define a domain, and plots the graph using Python libraries.
-
-The goal was to combine symbolic math with fast numerical plotting in a clean and straightforward way.
+> I built this project as a simple tool to visualize algebraic functions quickly. It takes an expression in terms of `x`, lets you define a domain, and plots the graph using Python libraries.
 
 ---
 
 ## 🚀 What it does
 
 * Takes a user-input function (in terms of `x`)
-* Lets you define a domain within `[-1000, 1000]`
+* Lets you define a domain within [-1000, 1000]
 * Converts the symbolic expression into a numerical function
 * Plots the graph using Matplotlib
 
