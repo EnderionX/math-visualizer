@@ -1,10 +1,20 @@
-# Function Plotter (Python)
+# Math Visualizer (Algebraic Function Plotter)
 
-> I built this project as a simple tool to visualize algebraic functions quickly. It takes an expression in terms of `x`, lets you define a domain, and plots the graph using Python libraries.
+> I built this project as a simple tool to plot algebraic functions quickly. It takes an expression in terms of `x`, lets you define a domain, and plots the graph using Python libraries.
 
 ---
 
-## Project Summary
+## Project Structure & Summary
+
+The following libraries were used to develop this program:
+
+* **SymPy** → for parsing and handling algebraic expressions
+* **NumPy** → for generating values efficiently
+* **Matplotlib** → for plotting the graph
+
+---
+
+## Features
 
 * Takes a user-input function (in terms of `x`)
 * Lets you define a domain within [-1000, 1000]
@@ -13,15 +23,7 @@
 
 ---
 
-## Libraries used
-
-* **SymPy** → for parsing and handling algebraic expressions
-* **NumPy** → for generating values efficiently
-* **Matplotlib** → for plotting the graph
-
----
-
-## Setup
+## How to Run
 
 Make sure Python (3.8 or above) is installed, then install the required libraries:
 
@@ -34,10 +36,7 @@ pip install numpy
 ```bash
 pip install matplotlib
 ```
-
----
-
-## How to run
+Now run the following command:
 
 ```bash
 python your_script_name.py
@@ -47,7 +46,7 @@ This will display the graph of the function in a new window.
 
 ---
 
-## About me
+## About Me
 
 I'm a student and tech enthusiast.
 This project is one of my steps toward building practical tools using Python.
